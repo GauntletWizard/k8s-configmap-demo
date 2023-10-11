@@ -1,5 +1,10 @@
 apiVersion: v1
 data:
+  bar: |
+    {
+      "a": "b",
+      "c": "d"
+    }
   foo.json: |
     {
       "a": "b",
@@ -7,4 +12,4 @@ data:
     }
 kind: ConfigMap
 metadata:
-  name: someconfig-h58c8f4c7g
+  name: someconfig-bb98fc29m4

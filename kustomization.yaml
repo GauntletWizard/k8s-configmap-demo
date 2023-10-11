@@ -4,3 +4,4 @@ configMapGenerator:
   - name: someconfig
     files: 
       - foo.json
+      - bar=bar.json
